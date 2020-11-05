@@ -21,7 +21,7 @@ public class BlogNgrokApp {
                 .withBlogName("Minimal blog spring boot starter 💡")
                 .withAuthor("Łukasz Włódarczyk")
                 .withResourcesRootDir("posts")
-                .withPostsOnPage(1)
+                .withPostsOnPage(2)
                 .withAboutContent(// @formatter:off
                         "This is example content of about section, about is great for not too " +
 						"long but also not too short texts quotes, it will be show every time " +
