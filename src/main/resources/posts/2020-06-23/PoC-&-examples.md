@@ -1,4 +1,4 @@
-#### just random markdown content blah blah
+##### short project description
 This is very first version of this project - idea is to create easy to use and minimal configured 
 blog engine for spring boot. Then it can be used for example like here, for manage versioning & docs.
 Only  requirements are that file types of posts needs to be HTML or Markdown, 
@@ -6,9 +6,9 @@ and posts needs to be keep in some defined structure, like below:
 ```
 blog
   ├── 2020-04-20
-  │   └── example-blog-post.html
+  │   └── example-blog-post.html
   ├── 2020-05-01
-  │   └── ✅-markdown-is-now-supported!.md
+  │   └── ✅-markdown-is-now-supported!.md
   └── 2020-06-23
       └── PoC-&-examples.md
 ```
@@ -99,17 +99,17 @@ To make usage of this project you need to:
     └── src
         └── main
             ├── java
-            │   └── com
-            │       └── example
-            │           └── demo
-            │               └── DemoApplication.java
+            │   └── com
+            │       └── example
+            │           └── demo
+            │               └── DemoApplication.java
             └── resources
                 ├── application.properties
                 └── blog
                     ├── 2020-04-20
-                    │   └── example-blog-post.html
+                    │   └── example-blog-post.html
                     ├── 2020-05-01
-                    │   └── ✅-markdown-is-now-supported!.md
+                    │   └── ✅-markdown-is-now-supported!.md
                     └── 2020-06-23
                         └── PoC-&-examples.md
     ```
